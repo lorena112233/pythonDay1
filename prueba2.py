@@ -1,4 +1,4 @@
-# calcular media de varias notas
+# --- calcular media de varias notas
 notaMate=9;
 notaIngles=8;
 notaEuskera=8;
