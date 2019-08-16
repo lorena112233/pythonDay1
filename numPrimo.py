@@ -11,12 +11,12 @@ def es_primo(numero):
  
 while True:
     try:
-        numero = int(input("inserta un numero // o (0) para salir"));
+        numero = int(input("inserta un numero // o (0) para salir \t"))
         if numero==0:
             break
         if es_primo(numero):
-            print ("\nEl numero %s es primo" % numero)
+            print ("El numero %s es primo" % numero, "\n")
         else:
-            print ("\nEl numero %s NO es primo" % numero)
+            print ("\nEl numero %s NO es primo" % numero, "\n")
     except:
         print ("\nEl numero tiene que ser entero")

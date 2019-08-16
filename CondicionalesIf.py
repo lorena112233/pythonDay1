@@ -1,6 +1,6 @@
-# --- bucle para diferenciar entre rangos de edad
+# --- para diferenciar entre rangos de edad
 edad = int(input("Edad: "));
-print (edad, " años");
+print(edad, " años");
 print("-----------------");
 # --- uso una variable para definir la mayoría de edad (podria cambiar en USA)
 a = 18
